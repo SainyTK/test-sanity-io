@@ -1,12 +1,13 @@
-# Sanity Clean Content Studio
+# Sanity.io Headless CMS Review
+This repository is my playground to test Sanity.io's functionality. I'm searching for a modern CMS tool (I don't like Wordpress and PHP) to work with content-based website. The tool I'm finding should be compatible with my tech stack (TypeScript and JS Ecosystem).
 
-Congratulations, you have now installed the Sanity Content Studio, an open source real-time content editing environment connected to the Sanity backend.
+After completing the get started section of Sanity.io, here're my notes:
 
-Now you can do the following things:
-
-- [Read “getting started” in the docs](https://www.sanity.io/docs/introduction/getting-started?utm_source=readme)
-- [Join the community Slack](https://slack.sanity.io/?utm_source=readme)
-- [Extend and build plugins](https://www.sanity.io/docs/content-studio/extending?utm_source=readme)
+1. `Schemas are defined using TypeScript`: This is a bit more complicated compared to some tools that offer no code schema defining.
+2. `The UI is pretty`: I like the UI styling of Sanity dashboard.
+3. `Comprehensive customizable`: While using code to control UI is complex, it offers a wide range of possible customization. 
+4. `Rich text editor support`: Sanity supports rich text editor. This makes blog post generation much simpler for marketing team.
+5. `Grapg Relational Object Quries (GROQ) based data retrival`: It uses another query language to retrive data. GROQ uses to query JSON data. I think the learning curve is now high for this one.
 
 ## How to fix VS code type warning
 - Add `"moduleResolution": "NodeNext"` in `tsconfig.json` 
